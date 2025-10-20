@@ -7,7 +7,7 @@ DAY=$(date +"%d")
 TIME=$(date +"%H-%M-%S")
 
 # Create directory structure: coffees/YYYY/MM/DD
-DIR="coffees/${YEAR}/${MONTH}/${DAY}"
+DIR="../coffees/${YEAR}/${MONTH}/${DAY}"
 mkdir -p "$DIR"
 
 # File name for this coffee
